@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/../../_config/funcoes.php';
+
 tituloPagina("02 - Funções para arrays");
 
 CriarTitulo("manipulação", __LINE__);

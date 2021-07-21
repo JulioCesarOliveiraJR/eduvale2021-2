@@ -1,6 +1,7 @@
 <?php
 require __DIR__ . '/../../_config/funcoes.php';
-tituloPagina("10 - Cookies e sessões");
+
+tituloPagina("11 - Cookies e sessões");
 
 CriarTitulo("cookies", __LINE__);
 

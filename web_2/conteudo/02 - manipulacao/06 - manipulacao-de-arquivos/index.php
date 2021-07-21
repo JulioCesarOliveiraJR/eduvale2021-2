@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/../../_config/funcoes.php';
+
 tituloPagina("06 - Manipulação de arquivos");
 
 CriarTitulo("verificação", __LINE__);
