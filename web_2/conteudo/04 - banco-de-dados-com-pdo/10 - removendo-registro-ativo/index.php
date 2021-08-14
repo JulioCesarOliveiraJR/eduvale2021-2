@@ -8,5 +8,3 @@ tituloPagina("10 - Removendo registro ativo");
 CriarTitulo("destroy", __LINE__);
 
 CriarTitulo("model destroy", __LINE__);
-
-
