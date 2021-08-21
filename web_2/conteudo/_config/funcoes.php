@@ -7,6 +7,7 @@ set_error_handler("funcaoError");
 ini_set("display_errors", 1);
 ini_set("error_reporting", E_ALL);
 ini_set('xdebug.overload_var_dump', 1);
+ini_set('xdebug.show_local_vars', 0);
 
 echo "<link rel='stylesheet' href='../../_config/estilo.css'/>";
 
