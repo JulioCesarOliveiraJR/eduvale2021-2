@@ -3,6 +3,12 @@ require __DIR__ . '/../../_config/funcoes.php';
 
 tituloPagina("05 - Estruturas de controle");
 
+/*
+ * [ if ] https://php.net/manual/pt_BR/control-structures.if.php
+ * [ elseif ] https://php.net/manual/pt_BR/control-structures.elseif.php
+ * [ else ] https://php.net/manual/pt_BR/control-structures.else.php
+ */
+
 CriarTitulo("if, elseif, else", __LINE__);
 
 $test = true;
@@ -33,6 +39,10 @@ if ($hour >= 5 && $hour < 23) {
     var_dump("zzzzZZZZ");
 }
 
+/*
+ * [ isset ] https://php.net/manual/pt_BR/function.isset.php
+ * [ empty] https://php.net/manual/pt_BR/function.empty.php
+ */
 
 CriarTitulo("isset, empty, !", __LINE__);
 
@@ -50,6 +60,10 @@ if (!empty($rockAndRoll)) {
 }else{
     var_dump("Não existe ou não tem banda");  
 }
+
+/*
+ * [ switch ] https://secure.php.net/manual/pt_BR/control-structures.switch.php
+ */
 
 CriarTitulo("switch", __LINE__);
 

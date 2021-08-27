@@ -3,6 +3,10 @@ require __DIR__ . '/../../_config/funcoes.php';
 
 tituloPagina("07 - Closures e generators");
 
+/*
+ * [ closures ] https://php.net/manual/pt_BR/functions.anonymous.php
+ */
+
 CriarTitulo("closures", __LINE__);
 
 $myAge = function ($year){
@@ -34,6 +38,10 @@ $cardAdd("HTML5", 1, 250);
 $cardAdd("jQuery", 3, 36);
 
 var_dump($myCart, $cardAdd);
+
+/*
+ * [ generators ] https://php.net/manual/pt_BR/language.generators.overview.php
+ */
 
 CriarTitulo("generators", __LINE__);
 

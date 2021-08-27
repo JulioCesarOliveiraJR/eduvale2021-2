@@ -4,7 +4,8 @@ require __DIR__ . '/../../_config/funcoes.php';
 tituloPagina("03 - Operadores na prática");
 
 /**
- * [Atribuição] https://www.php.net/manual/en/language.operators.php
+ * [ operadores ] https://php.net/manual/pt_BR/language.operators.php
+ * [ atribuição ] https://php.net/manual/pt_BR/language.operators.assignment.php
  */
 
 CriarTitulo("Atribuição", __LINE__);
@@ -35,7 +36,9 @@ var_dump($increments);
 
 
 
-
+/**
+ * [ comparação ] https://php.net/manual/pt_BR/language.operators.comparison.php
+ */
 
 CriarTitulo("Comparação", __LINE__);
 $comparationA = 5;
@@ -58,6 +61,9 @@ $comparation = [
 var_dump($comparation);
 
 
+/**
+ * [ lógicos ] https://php.net/manual/pt_BR/language.operators.logical.php
+ */
 
 CriarTitulo("Lógicos", __LINE__);
 $logicA = true;
@@ -73,7 +79,9 @@ $logic = [
 
 var_dump($logic);
 
-
+/**
+ * [ aritiméticos ] https://php.net/manual/pt_BR/language.operators.arithmetic.php
+ */
 
 CriarTitulo("Aritiméticos", __LINE__);
 
